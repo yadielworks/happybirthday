@@ -90,17 +90,10 @@ body {
   display: inline-block;
 }
 
-.idea-6 span {
-  font-size: 10rem; /* Mas maliit na font size para magkasya sa screen */
-  line-height: 1; /* Adjusted line-height para mas compact */
+.idea-6 span{
+  font-size: 15rem;
 }
 
-/* Para sa mas maliit na screen tulad ng mobile */
-@media screen and (max-width: 500px) {
-  .idea-6 span {
-    font-size: 8rem; /* Mas maliit na font size para magkasya sa mas maliit na screen */
-  }
-}
 
 .six {
   position: relative;
@@ -276,7 +269,7 @@ body {
   }
 
   .idea-6 span {
-    font-size: 8rem;
+    font-size: 10rem;
   }
 
   .six .hat {
